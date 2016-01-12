@@ -64,6 +64,10 @@
 
 /* FROM TT-RSS.CSS ************************************************************/
 
+body#ttrssMain, body#ttrssPrefs, body#ttrssLogin, body {
+	font-size: 14px;
+}
+
 /* @60 */
 div.articleNote {
 	background-color : #fff7d5;
@@ -456,7 +460,6 @@ img.tinyFeedIcon  {
 	height: 16px;
 }
 
-
 /* SKINNING ************************************************************/
 
 html {
@@ -500,6 +503,7 @@ a:hover {
 	width: 100%;
 	text-align: right;
 	cursor: default;
+	display: none;
 }
 /*#headlines-toolbar .main*/ #selected_prompt {
 	float: left;
@@ -512,7 +516,7 @@ a:hover {
 #headlines-toolbar .main > *,
 #headlines-toolbar .main > .sel_links a {
 	vertical-align: middle;
-	font-size: 12px;
+	font-size: 14px;
 	color: #b2b2b2;
 }
 #headlines-toolbar .main > .sel_links a {
@@ -811,11 +815,11 @@ a:hover {
 #floatingTitle .title,
 .postHeader .postTitle a {
 	font-weight: bold;
-	font-size: 13px;
+	font-size: 18px;
 }
 #feed_title {
 	font-weight: bold;
-	font-size: 13px;
+	font-size: 14px;
 	color: #444;
 }
 #feed_title a {
@@ -870,9 +874,11 @@ a:hover {
 	left: 26px;
 	z-index: 4;
 	background: #fff;
+	height: 36px;
 }
 #floatingTitle .title {
 	color: inherit;
+	font-size: 24px;
 }
 #floatingTitle .titleWrap:before,
 #floatingTitle .titleWrap:after {
@@ -1271,7 +1277,7 @@ div.articleNote {
 .cdmHeader .hlFeed,
 .hl > .hlFeed,
 .hlUpdated {
-	font-size: 11px;
+	font-size: 13px;
 	line-height: 16px;
 }
 .cdmHeader .hlFeed a,
